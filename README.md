@@ -1,2 +1,2 @@
 # My-Portfolio-Website
-https://u-jayadhar.github.io/
+https://u-jayadhar.github.io/My-Portfolio-Website/
