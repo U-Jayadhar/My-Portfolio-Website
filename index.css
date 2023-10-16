@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.navbar-custom,
+.page-bg {
+  background-image: linear-gradient(to right, #252525, #0b0a0a);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-brand:hover {
+  font-family: ar one sans;
+  color: #c0c1ff !important;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.navbar-custom .nav-link {
+  font-family: ar one sans;
+  color: #f2f2f2;
+  font-size: 18px;
+  margin-right: 25px;
+}
+
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+  color: #c0c1ff !important;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: transparent;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 242, 242, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+.banner-head {
+  font-family: ar one sans;
+  font-size: 15px;
+  color: #f4fefd;
+}
+
+.banner-para {
+  font-family: Montserrat;
+  font-size: 25px;
+  color: #f4fefd;
+}
+
+.banner-img {
+  height: 200px;
+}
+
+.git-button {
+  font-family: ar one sans;
+  font-weight: bolder;
+  color: #0f0f0f;
+  background-color: #c0c1ff;
+  border-radius: 40px;
+  border-width: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about-head {
+  font-family: ar one sans;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffa4d8;
+}
+
+.about-para {
+  font-family: Montserrat;
+  font-size: 20px;
+  text-align: justify;
+  color: #f4fefd;
+}
