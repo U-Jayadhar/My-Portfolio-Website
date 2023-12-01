@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
-
-.ml-auto {
-  margin-left: auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 .navbar-custom,
 .page-bg {
@@ -26,7 +23,8 @@
 
 
 .navbar-custom .nav-link:hover,
-.navbar-custom .nav-link.active {
+.navbar-custom .nav-link.active,
+.navbar-custom .nav-link:focus {
   color: #c0c1ff !important;
 }
 
@@ -55,7 +53,7 @@
   height: 200px;
 }
 
-.git-button {
+.cnct-button {
   font-family: ar one sans;
   font-weight: bolder;
   color: #0f0f0f;
@@ -68,11 +66,20 @@
   padding-right: 20px;
 }
 
-.about-head {
+.main-head {
   font-family: ar one sans;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
+  margin-bottom: 20px;
   color: #ffa4d8;
+}
+
+.main-sub-head {
+  font-family: work sans;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #faae90;
 }
 
 .about-para {
@@ -80,4 +87,33 @@
   font-size: 20px;
   text-align: justify;
   color: #f4fefd;
+}
+
+.main-para {
+  font-family: Montserrat;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #f4fefd;
+}
+
+.main-side-para {
+  font-family: Montserrat;
+  font-size: 13px;
+  color: #bbb2b2;
+}
+.footer-para {
+  font-family: Montserrat;
+  font-size: 15px;
+  color: #e5e5e5;
+}
+
+.logo-img {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.line {
+  height: 3px;
+  background-color: #f4fefd;
+  border-radius: 10px;
 }
