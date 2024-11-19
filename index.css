@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+@import url('https://fonts.cdnfonts.com/css/switzer');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 .navbar-custom,
 .page-bg {
@@ -9,14 +9,14 @@
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-brand:hover {
-  font-family: ar one sans;
+  font-family: Switzer;
   color: #c0c1ff !important;
   font-size: 25px;
   font-weight: bolder;
 }
 
 .navbar-custom .nav-link {
-  font-family: ar one sans;
+  font-family: Switzer;
   color: #f2f2f2;
   font-size: 18px;
   margin-right: 25px;
@@ -39,13 +39,13 @@
 
 
 .banner-head {
-  font-family: ar one sans;
+  font-family: Switzer;
   font-size: 15px;
   color: #f4fefd;
 }
 
 .banner-para {
-  font-family: Montserrat;
+  font-family: Manrope;
   font-size: 25px;
   color: #f4fefd;
 }
@@ -55,7 +55,7 @@
 }
 
 .cnct-button {
-  font-family: ar one sans;
+  font-family: Switzer;
   font-weight: bolder;
   color: #0f0f0f;
   background-color: #c0c1ff;
@@ -68,7 +68,7 @@
 }
 
 .main-head {
-  font-family: ar one sans;
+  font-family: Switzer;
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -84,26 +84,26 @@
 }
 
 .about-para {
-  font-family: Montserrat;
+  font-family: Manrope;
   font-size: 20px;
   text-align: justify;
   color: #f4fefd;
 }
 
 .main-para {
-  font-family: Montserrat;
+  font-family: Manrope;
   font-size: 20px;
   margin-bottom: 5px;
   color: #f4fefd;
 }
 
 .main-side-para {
-  font-family: Montserrat;
+  font-family: Manrope;
   font-size: 13px;
   color: #bbb2b2;
 }
 .footer-para {
-  font-family: Montserrat;
+  font-family: Manrope;
   font-size: 15px;
   color: #e5e5e5;
 }
