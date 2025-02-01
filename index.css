@@ -1,6 +1,6 @@
-@import url('https://fonts.cdnfonts.com/css/switzer');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.cdnfonts.com/css/switzer");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
 .navbar-custom,
 .page-bg {
@@ -22,7 +22,6 @@
   margin-right: 25px;
 }
 
-
 .navbar-custom .nav-link:hover,
 .navbar-custom .nav-link.active,
 .navbar-custom .nav-link:focus {
@@ -36,7 +35,6 @@
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 242, 242, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-
 
 .banner-head {
   font-family: Switzer;
@@ -99,8 +97,19 @@
 
 .main-side-para {
   font-family: Manrope;
-  font-size: 13px;
-  color: #bbb2b2;
+  font-size: 14px;
+  color: #c7c7c7;
+}
+.main-side-list {
+  font-family: Manrope;
+  font-size: 16px;
+  color: #c7c7c7;
+  list-style-type: none;
+  padding: 10px;
+  column-count: 2;
+}
+.main-side-list li {
+  margin-bottom: 5px; /* Adds vertical space between items */
 }
 .footer-para {
   font-family: Manrope;
